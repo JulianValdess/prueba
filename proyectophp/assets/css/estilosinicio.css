@@ -1,0 +1,39 @@
+/* Ajuste para los productos */
+main>.container {
+    padding: 30px 0;
+}
+
+.card {
+    margin: 10px 0; /* Espaciado entre tarjetas */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black; /* Cambia el color de las flechas a negro */
+    border-radius: 50%; /* Opcional: para darle un diseño circular */
+}
+
+.carousel-control-prev-icon {
+    background-image: none; /* Elimina la flecha predeterminada de Bootstrap */
+}
+
+.carousel-control-next-icon {
+    background-image: none; /* Elimina la flecha predeterminada de Bootstrap */
+}
+
+.carousel-control-prev-icon::after {
+    content: '\2039'; /* Código Unicode para una flecha izquierda */
+    font-size: 2rem;  /* Tamaño de la flecha */
+    color: white;     /* Color de la flecha */
+}
+
+.carousel-control-next-icon::after {
+    content: '\203A'; /* Código Unicode para una flecha derecha */
+    font-size: 2rem;  /* Tamaño de la flecha */
+    color: white;     /* Color de la flecha */
+}
